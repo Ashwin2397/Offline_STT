@@ -9,6 +9,12 @@
     * All required static resources are cached
     * I used a known caching strategy to achieve this. 
 
+## Build and deploy
+1. Clone repo 
+2. Change logo if need be
+3. [npm install serve](https://www.npmjs.com/package/serve) OR [npm install http-server](https://www.npmjs.com/package/http-server)
+    * This is to serve static files from a given directory 
+
 ## Goal 
 * Going forward, I have plans to do either of the following: 
     1. Extrapolate from this initial implementation and train my own model with a larger set of vocabulary
@@ -17,6 +23,7 @@
     
 ## Caveat 
 * My knowledge in both ML and PWA deployment is beginner at best. Hence, the project is based heavily on a variety of resources. 
+* Implementation has not been thoroughly vetted and is meant to serve as a proof-of-concept
 
 ## Extra References
 * [PWA Deployment](https://www.youtube.com/watch?v=E8BeSSdIUW4)
