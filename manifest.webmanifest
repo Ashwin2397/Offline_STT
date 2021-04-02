@@ -1,0 +1,21 @@
+{
+    "name": "Offline STT with PWA",
+    "short_name": "Offline STT",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "An offline STT engine",
+    "icons": [
+      {
+        "src": "images/logo-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/logo-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
